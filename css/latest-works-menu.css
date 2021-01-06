@@ -1,0 +1,30 @@
+.latest-works-menu {
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 65px;
+}
+
+.latest-works-menu > ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.latest-works-menu > ul > li {
+    display: inline;
+    margin-right: 32px;
+}
+
+.latest-works-menu > ul > li:last-child {
+    margin-right: 0;
+}
+
+.latest-works-menu > ul > li > a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.latest-works-menu > ul > li > a:hover {
+    color: #c5412f;
+}

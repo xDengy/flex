@@ -1,0 +1,49 @@
+.partner-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.partner-images img {
+    display: inline-block;
+    margin-right: 60px;
+    vertical-align: middle;
+}
+
+.partner-images img:last-child {
+    margin-right: 0;
+}
+
+.partner-block-text
+{
+    margin-top: 82px;
+    font-family: "Roboto Slab",sans-serif;
+    font-size: 18px;
+    font-style: italic;
+    text-align: center;
+}
+
+.partner-block-bottom-text
+{
+    font-family: "Roboto Slab",sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.partner-button
+{
+    position: relative;
+    left: 50%;
+    transform: translate(-200%, 0);
+    border: none;
+    background-color: #f8f8f8;
+}
+
+.partner-button:hover
+{
+    cursor: pointer;
+}
+.partner-button:focus
+{
+    outline: none;
+}

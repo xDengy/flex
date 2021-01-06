@@ -1,0 +1,18 @@
+.red-block
+{
+    background-image: linear-gradient(rgba(255, 0, 0, 0.5), rgba(255, 0, 0, 0.5)), url(../images/red-block-background/background.png);
+    background-position: top;
+    background-repeat: repeat, no-repeat;
+    background-size: auto, cover;
+    padding-top: 93px;
+    padding-bottom: 93px;
+    text-align: center;
+}
+
+
+.header-content-text {
+    color: #ffffff;
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 30px;
+    margin: 0 0 52px;
+}

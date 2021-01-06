@@ -1,0 +1,33 @@
+.block {
+    padding-top: 93px;
+    padding-bottom: 93px;
+}
+
+.gray-block {
+    background-color: #f8f8f8;
+}
+
+
+.block-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+
+.block-title::after {
+    content: "";
+    background-color: #555555;
+    width: 50px;
+    height: 2px;
+    margin: 29px auto;
+    display: block;
+}
+
+.block-subtitle {
+    text-align: center;
+    margin-bottom: 70px;
+}

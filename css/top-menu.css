@@ -1,0 +1,28 @@
+.top-menu {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.top-menu > ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.top-menu > ul > li {
+    display: block;
+    margin-right: 32px;
+}
+
+.top-menu > ul > li:last-child {
+    margin-right: 0;
+}
+
+.top-menu > ul > li > a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.top-menu > ul > li > a:hover {
+    color: #ccc;
+}
